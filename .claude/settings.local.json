@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python train_cnn_model.py)"
+      "Bash(python train_cnn_model.py)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ]
   }
 }
